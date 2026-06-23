@@ -10,7 +10,7 @@ function isAdult(age) {
 } console.log('exsercise 2 answer', isAdult(21))
 
 function isCharAVowel(letter) {
-    if (isCharAVowel === letter) {
+    if (letter === 'a' || letter === 'o'|| letter === 'e' || letter === 'u'|| letter === 'i') {
         return true
     }
     else {
@@ -20,16 +20,16 @@ function isCharAVowel(letter) {
 console.log('Exercise 3 Result:', isCharAVowel("a"));
 
 function generateEmail(firstName, domain) {
-    return `${firstName}.${domain}`
+    return `${firstName}@${domain}`
 }
 
-console.log('Exercise 4 Result:', generateEmail("faisal", "@gmail.com"));
+console.log('Exercise 4 Result:', generateEmail("faisal", "gmail.com"));
 
 function greetUser(time, name) {
-    return `${time}.${name}`
+    return `Good ${time},${name}`
 
 }
-console.log('Exercise 5 Result:', greetUser("good morning", "faisal"));
+console.log('Exercise 5 Result:', greetUser("morning", "faisal"));
 
 function maxOfThree(number1, number2, number3) {
 
